@@ -1,113 +1,159 @@
 import Image from "next/image";
+import "./globals.css";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <section
+        id="home"
+        className="h-screen bg-custom-section-one bg-cover bg-center flex justify-evenly items-center"
+      >
+        <div className="h-[40%] w-[40%] flex items-center justify-center flex-col">
+          <div className=" text-slate-200 text-9xl font-bold font-['Poppins'] leading-[128px]">
+            Green Horizon
+          </div>
+          <div className=" text-neutral-50 text-[28px] font-normal font-['Poppins'] leading-7">
+            A youth-led non-profit organization located in Brampton focused on
+            the creating sustainable solutions
+          </div>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src="/section-one-tree.svg"
+          width={570}
+          height={570}
+          alt="tree svg h-[40%] w-[40%]"
         />
-      </div>
+      </section>
+      <section
+        id="mission"
+        className="flex justify-evenly items-center bg-emerald-950 h-[770px] w-full"
+      >
+        <div className="flex flex-col justify-evenly items-start w-[40%] h-[350px]">
+          <div className="w-[502px] text-slate-200 text-[64px] font-bold font-['Poppins'] leading-[64px]">
+            Our Mission
+          </div>
+          <div className="w-[616px] text-neutral-50 text-[22px] font-normal font-['Poppins'] leading-7 tracking-wide">
+            Green Horizon aims to combat climate change through youth-led
+            initiatives, focusing on deforestation, air pollution, and water
+            pollution. We plant trees, clean parks, recycle e-waste, and educate
+            young minds. Join us in building a greener future.
+          </div>
+          <div className="w-[173px] h-[58px] px-[9px] py-[11px] bg-emerald-600 rounded-xl justify-center items-center gap-2.5 inline-flex">
+            <div className="text-black text-2xl font-bold font-['Poppins']">
+              Get Involved{" "}
+            </div>
+          </div>
+        </div>
+        <Image
+          src="/section-two-tree.svg"
+          width={570}
+          height={570}
+          alt="tree svg h-[40%] w-[40%]"
+        />
+      </section>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <section
+        id="solutions"
+        className="flex flex-col items-center justify-evenly w-full h-[1200px] bg-[#FAFAFA]"
+      >
+        <div className="w-full flex items-center justify-center">
+          <Image src="/solutions.svg" width={308} height={64} alt="tree svg" />
+        </div>
+        <div className="flex flex-col items-center justify-center w-full">
+          <div className="flex justify-evenly items-center w-[80%]">
+            <div>
+              <Image
+                src="/section-three-image-one.svg"
+                width={260}
+                height={260}
+                alt="tree svg"
+              />
+              <div className="text-center text-green-950 text-[28px] font-semibold font-['Poppins'] leading-7">
+                Tree Planting
+              </div>
+            </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+            <div>
+              <Image
+                src="/section-three-image-two.svg"
+                width={260}
+                height={260}
+                alt="tree svg"
+              />
+              <div className="text-center text-green-950 text-[28px] font-semibold font-['Poppins'] leading-7">
+                Park Cleanup
+              </div>
+            </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+            <div>
+              <Image
+                src="/section-three-image-three.svg"
+                width={260}
+                height={260}
+                alt="tree svg"
+              />
+              <div className="text-center text-green-950 text-[28px] font-semibold font-['Poppins'] leading-7">
+                E-Waste Recycling
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <div className="flex justify-around items-center w-[70%]">
+          <div>
+            <Image
+              src="/section-three-image-four.svg"
+              width={260}
+              height={260}
+              alt="tree svg"
+            />
+            <div className="text-center text-green-950 text-[28px] font-semibold font-['Poppins'] leading-7">
+              Youth Workshops
+            </div>
+          </div>
+
+          <div>
+            <Image
+              src="/section-three-image-five.svg"
+              width={260}
+              height={260}
+              alt="tree svg"
+            />
+            <div className="text-center text-green-950 text-[28px] font-semibold font-['Poppins'] leading-7">
+              School Speaking
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="involved"
+        className="flex justify-evenly items-center bg-emerald-950 h-[770px] w-full"
+      >
+        <div className="flex flex-col justify-evenly items-start w-[40%] h-[350px]">
+          <div className="w-[502px] text-slate-200 text-[64px] font-bold font-['Poppins'] leading-[64px]">
+            Get Involved
+          </div>
+          <div className="w-[616px] text-neutral-50 text-[22px] font-normal font-['Poppins'] leading-7 tracking-wide">
+            Ready to make a difference? At Green Horizon, we're helping young
+            leaders tackle environmental issues. Eager to clean up local parks,
+            or committed to reducing e-waste, there's a place for you in our
+            community. Contact us if you would like to part of the solution for
+            a greener tomorrow.
+          </div>
+          <div className="w-[173px] h-[58px] px-[9px] py-[11px] bg-emerald-600 rounded-xl justify-center items-center gap-2.5 inline-flex">
+            <div className="text-black text-2xl font-bold font-['Poppins']">
+              Contact Us
+            </div>
+          </div>
+        </div>
+        <Image
+          src="/section-four-image.png"
+          width={322}
+          height={482}
+          alt="tree svg h-[40%] w-[40%]"
+        />
+      </section>
     </main>
   );
 }
