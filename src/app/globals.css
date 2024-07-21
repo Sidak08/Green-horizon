@@ -35,3 +35,9 @@ body {
 .bg-custom-section-one {
     background-image: url("/section-one.png");
 }
+.bg-custom-section-four {
+    background-image: url("/section-four-background.png");
+}
+.lastBoxShadow {
+    box-shadow: 0px 4px 63.6px 25px rgba(0, 0, 0, 0.6);
+}
