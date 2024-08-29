@@ -55,7 +55,7 @@ visit online at [green-horizon-mu.vercel.app/](https://green-horizon-mu.vercel.a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/green-horizon-website.git
+   git clone https://github.com/Sidak08/Green-horizon.git
    ```
 
 2. Navigate to the project directory:
