@@ -97,7 +97,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions or need further information, feel free to reach out through our sidaksingh318@gmail.com on the website or connect with us on social media.
 
-## screenshots
+## Screenshots
 ![screenshot](https://github.com/Sidak08/Green-horizon/blob/main/screenshots/Screen%20Shot%202024-08-29%20at%207.10.53%20PM.png)
 ![screenshot](https://github.com/Sidak08/Green-horizon/blob/main/screenshots/Screen%20Shot%202024-08-29%20at%207.10.59%20PM.png)
 ![screenshot](https://github.com/Sidak08/Green-horizon/blob/main/screenshots/Screen%20Shot%202024-08-29%20at%207.11.03%20PM.png)
