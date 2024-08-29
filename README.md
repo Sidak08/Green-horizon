@@ -96,3 +96,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 If you have any questions or need further information, feel free to reach out through our sidaksingh318@gmail.com on the website or connect with us on social media.
+
+## screenshots
